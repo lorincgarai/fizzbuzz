@@ -5,12 +5,7 @@ import java.util.List;
 
 public class FizzBuzzGenerator
 {
-
-    public FizzBuzzGenerator()
-    {
-
-    }
-    public List<String> generateFizzBuzz(int bound)
+    public static List<String> generateFizzBuzz(int bound)
     {
         List<String> lists = new ArrayList<>();
         for (int number = 1; number <= bound; number++)

@@ -17,7 +17,7 @@ class FizzbuzzprojectApplicationTests {
 	@Test
 	void FizzBuzzGeneratesCorrectly()
 	{
-		List<String> actualFizzesBuzzes = new FizzBuzzGenerator().generateFizzBuzz(15);
+		List<String> actualFizzesBuzzes = FizzBuzzGenerator.generateFizzBuzz(15);
 		List<String> expectedFizzesBuzzes = Arrays.asList("1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz");
 		Assert.isTrue(actualFizzesBuzzes.equals(expectedFizzesBuzzes));
 	}

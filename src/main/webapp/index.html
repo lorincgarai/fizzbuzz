@@ -1,5 +1,30 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src = "index.js"></script>
+
+<head>
+        <link rel="stylesheet" href="index.css">
+</head>
+
+
 <html>
 <body>
-<p><a href = "getfizzbuzz">FizzBuzz</a></p>
+<div id = "header" class="header">
+    <p>
+        Sprintform FizzBuzz App
+    </p>
+    <p class="note">
+        Lorinc Garai, 01.02.2021
+    </p>
+</div>
+<div id = "button">
+    <p>
+        <span class = "buttoncontainer"><button type = "button" onclick="javascript:getFizzBuzz()" class="buttontrigger">FizzBuzz</button></span>
+        <span class = "buttoncontainer"><button type = "button" onclick="javascript:reset()" class="buttonreset">Reset</button></span>
+    </p>
+</div>
+
+<div id = "response" class="response">
+
+</div>
 </body>
 </html>
